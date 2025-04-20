@@ -13,4 +13,11 @@
 
 ## Features
 
--   TODO
+-   Interactive maps to analyze urban development
+
+## Usage
+
+```python
+import geomorphproject1
+import os
+```
