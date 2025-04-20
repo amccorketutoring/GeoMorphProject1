@@ -4,7 +4,7 @@
 [![image](https://img.shields.io/pypi/v/geomorphproject1.svg)](https://pypi.python.org/pypi/geomorphproject1)
 
 
-**Python Boilerplate contains all the boilerplate you need to create a Python package.**
+**Python Package to Study and Analyze Urban Morphology.**
 
 
 -   Free software: MIT License
