@@ -81,6 +81,7 @@ nav:
     - Report Issues: https://github.com/amccorketutoring/geomorphproject1/issues
     - Examples:
         - examples/intro.ipynb
+        - examples/map.ipynb
     - API Reference:
           - geomorphproject1 module: geomorphproject1.md
           - common module: common.md
