@@ -1,1 +1,5 @@
-numpy
+folium>=0.14
+geopandas>=0.14
+ipyleaflet>=0.17
+numpy>=1.21
+pandas>=1.5
