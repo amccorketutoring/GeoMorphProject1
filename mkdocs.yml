@@ -88,6 +88,5 @@ nav:
     - API Reference:
           - geomorphproject1 module: geomorphproject1.md
           - common module: common.md
-          - leaflet module: leaflet_map.py
-          - folium module: folium_map.py
-          - ipyleaflet module: ipyleaflet_map.py
+          - folium module: myfoliumcode.md
+          - ipyleaflet module: myipyleafletcode.md
