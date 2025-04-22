@@ -88,7 +88,6 @@ nav:
     - API Reference:
           - geomorphproject1 module: geomorphproject1.md
           - common module: common.md
-          - folium: myfoliumcode.md
-          - ipyleaflet: myipyleafletcode.md
+          - Lab 6 and 7 Lab: folium_lab6_7_cleaned.md
 
 
