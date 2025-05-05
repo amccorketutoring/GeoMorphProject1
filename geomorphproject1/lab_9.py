@@ -1,4 +1,4 @@
-# Lab 9: Advanced Geospatial Visualization (Updated to match .ipynb)
+# Lab 9: Advanced Geospatial Visualization (Relative paths fixed for GitHub)
 
 import geopandas as gpd
 import pandas as pd
