@@ -1,6 +1,7 @@
 folium>=0.14
 geopandas>=0.14
 ipyleaflet>=0.17
+leafmap>=0.25           # ✅ Needed to fix deployment
 mistune==2.0.5
 mkdocs>=1.5
 mkdocs-jupyter>=0.24.0
