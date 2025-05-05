@@ -1,4 +1,4 @@
-# Lab 9: Advanced Geospatial Visualization (Relative paths fixed for GitHub)
+# Lab 9: Advanced Geospatial Visualization (Corrected with Forward Slashes)
 
 import geopandas as gpd
 import pandas as pd
