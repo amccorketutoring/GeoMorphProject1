@@ -85,6 +85,8 @@ nav:
         - examples/ipyleaflet_example.ipynb
         - examples/folium_example.ipynb
         - examples/ipyleaflet_Lab8_demo.ipynb
+        - examples/lab_9_test.ipynb
+
 
     - API Reference:
           - geomorphproject1 module: geomorphproject1.md
@@ -92,4 +94,5 @@ nav:
           - folium (cover lab 6 and 7) module: myfoliumcode.md
           - ipyleaflet (cover lab 6 and 7) module: myipyleafletcode.md
           - Lab 8: ipyleaflet_map_lab8.md
+          - Lab 9: lab_9.md
 
