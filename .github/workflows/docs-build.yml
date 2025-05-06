@@ -12,6 +12,7 @@ jobs:
             - uses: actions/checkout@v4
               with:
                   fetch-depth: 0
+
             - uses: actions/setup-python@v5
               with:
                   python-version: "3.11"
@@ -20,19 +21,26 @@ jobs:
               run: |
                   python -m pip install --upgrade pip
                   pip install --find-links=https://girder.github.io/large_image_wheels --no-cache GDAL pyproj
+
             - name: Test GDAL installation
               run: |
                   python -c "from osgeo import gdal"
                   gdalinfo --version
+
             - name: Install dependencies
               run: |
                   pip install --no-cache-dir Cython
                   pip install -r requirements.txt -r requirements_dev.txt
                   pip install .
-            - name: Run lab_9.py
-              run: python lab_9.py
+
+            - name: Test lab_9.py script
+              run: |
+                echo "Running lab_9.py..."
+                python lab_9.py
+
             - name: Discover typos with codespell
               run: codespell --skip="*.csv,*.geojson,*.json,*.js,*.html,*cff,*.pdf,./.git" --ignore-words-list="aci,acount,hist"
+
             - name: PKG-TEST
               run: |
                   python -m unittest discover tests/

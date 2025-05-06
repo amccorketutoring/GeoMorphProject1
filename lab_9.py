@@ -97,3 +97,5 @@ split_map.add_right_layer(
     url="https://github.com/opengeos/datasets/releases/download/v0.1/libya_flood_after.tif",
     layer_name="After Flood",
 )
+
+# test action rebuild
