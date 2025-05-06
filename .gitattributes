@@ -1,0 +1,4 @@
+data/*.geojson filter=lfs diff=lfs merge=lfs -text
+data/*.shp filter=lfs diff=lfs merge=lfs -text
+docs/*.html filter=lfs diff=lfs merge=lfs -text
+docs/image.png filter=lfs diff=lfs merge=lfs -text
