@@ -5,6 +5,7 @@
 [![image](https://img.shields.io/conda/vn/conda-forge/geomorphproject1.svg)](https://anaconda.org/conda-forge/geomorphproject1)
 
 
+
 **Python Boilerplate contains all the boilerplate you need to create a Python package.**
 
 
@@ -15,3 +16,4 @@
 ## Features
 
 -   Interactive maps maps to analyze urban development over time.
+-   Using this allows you to see how the urban development has changed over time.
