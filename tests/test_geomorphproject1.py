@@ -2,7 +2,6 @@
 
 """Tests for `geomorphproject1` package."""
 
-
 import unittest
 
 from geomorphproject1 import geomorphproject1
